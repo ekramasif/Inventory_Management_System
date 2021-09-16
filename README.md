@@ -6,4 +6,18 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
+<hr>
 
+# Laravel SD_Assignment - Basic
+
+## Quick Installation
+
+    git clone https://github.com/ekramasif/SD_Project.git
+
+    cd SD_Project
+
+    composer install
+
+    php artisan migrate
+
+    php artisan serve
