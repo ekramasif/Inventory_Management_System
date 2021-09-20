@@ -8,7 +8,7 @@
 </p>
 <hr>
 
-# Laravel SD_Assignment - Basic
+# Inventory Management System
 
 ## Quick Installation
 
@@ -17,7 +17,11 @@
     cd SD_Project
 
     composer install
+    
+ # For Database connect copy all content from ```.env.example```, create a ```.env``` file & paste here!
 
     php artisan migrate
+    
+# Server ON ```url: http://127.0.0.1:8000/```
 
     php artisan serve
