@@ -8,11 +8,8 @@
 </p>
 <hr>
 
-<<<<<<< HEAD
-<p align="center"><h1>Inventory Management System</h1></p>
-=======
 <p align="center"><h1>Inventory Management System</h1></p><br>
->>>>>>> 4e150c7e3aebe360ace7ec37907f1f26e79e9d4d
+
 
 ## Quick Installation
 
