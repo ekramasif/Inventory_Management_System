@@ -8,18 +8,31 @@
 </p>
 <hr>
 
+<<<<<<< HEAD
 <p align="center"><h1>Inventory Management System</h1></p>
+=======
+<p align="center"><h1>Inventory Management System</h1></p><br>
+>>>>>>> 4e150c7e3aebe360ace7ec37907f1f26e79e9d4d
 
 ## Quick Installation
 
     git clone https://github.com/ekramasif/SD_Project.git
 
     cd SD_Project
+    
+### Composer Install
 
+    composer update
+    
     composer install
     
- ### For Database connect copy all content from ```.env.example```, create a ```.env``` file & paste here!
-
+### For Environment Variable Create
+ 
+    cp .env.example .env
+ 
+    
+ ### For Migration table in database [Create database name as ```sdproject```]
+ 
     php artisan migrate
     
 ### Server ON ```url: http://127.0.0.1:8000/```
