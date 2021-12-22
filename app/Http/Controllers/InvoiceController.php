@@ -22,7 +22,7 @@ class InvoiceController extends Controller
         $data->address = $request->address;
         $data->item = $request->item;
     	$data->product_name = $request->name;
-    	$data->price = $request->unit_price;
+    	$data->price = $request->sale_price;
     	$data->quantity = $request->quantity;
         $data->total = $request->total;
         $data->payment = $request->payment;
