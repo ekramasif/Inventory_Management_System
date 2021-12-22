@@ -8,7 +8,7 @@
 </p>
 <hr>
 
-# Inventory Management System
+<p align="center"><h1>Inventory Management System</h1></p>
 
 ## Quick Installation
 
