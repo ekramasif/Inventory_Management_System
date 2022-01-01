@@ -38,6 +38,6 @@
 
 ## Our valuable Contributors👩‍💻👨‍💻 :
 
-<center><a href="https://github.com/ekramasif/SD_Project">
+<p align="center"><a href="https://github.com/ekramasif/SD_Project">
   <img src="https://contributors-img.web.app/image?repo=ekramasif/SD_Project" />
-</a></center>
+</a></p>
