@@ -15,7 +15,7 @@
 
     git clone https://github.com/ekramasif/SD_Project.git
 
-    cd SD_Project
+    cd SD_Project/
     
 ### Composer Install
 
