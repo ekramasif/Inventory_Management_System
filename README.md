@@ -28,7 +28,7 @@
 
     php artisan serve
 
-## Our valuable Contributors👩‍💻👨‍💻 :
+## Our valuable team👩‍💻👨‍💻 :
 
 <p align="center">
   <img src="https://contributors-img.web.app/image?repo=ekramasif/SD_Project" />
