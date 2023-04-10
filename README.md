@@ -5,22 +5,23 @@
 
 ## Quick Installation
 
-    git clone https://github.com/ekramasif/SD_Project.git
+    git clone https://github.com/ekramasif/Inventory_Management_System.git
 
     cd SD_Project/
     
-### Composer Install
-
-    composer update
+### Composer
     
     composer install
+    
+    composer update
+    
     
 ### For Environment Variable Create
  
     cp .env.example .env
  
     
- ### For Migration table in database [Create database name as ```sdproject```]
+ ### For Migration table in database [Create database name as ```IMS```]
  
     php artisan migrate
     
@@ -31,5 +32,5 @@
 ## Our valuable team👩‍💻👨‍💻 :
 
 <p align="center">
-  <img src="https://contributors-img.web.app/image?repo=ekramasif/SD_Project" />
+  <img src="https://contributors-img.web.app/image?repo=ekramasif/Inventory_Management_System" />
 </p>
