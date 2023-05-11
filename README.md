@@ -10,9 +10,7 @@
     cd SD_Project/
     
 ### Composer
-    
-    composer install
-    
+
     composer update
     
     
