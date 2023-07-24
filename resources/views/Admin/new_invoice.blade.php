@@ -29,7 +29,7 @@
                                         <!-- <label class="small mb-1" for="inputFirstName">Customer Email</label>
                                         <input class="form-control py-4" name="email" type="text"/> -->
                                     </div>
-                                </div> 
+                                </div>
                                 <div class="col-md-6">
                                     <div class="form-group" name="company" id="company">
                                         <!-- <label class="small mb-1" for="inputLastName">Company</label>
@@ -115,15 +115,15 @@
                                     </div>
                                 </div>
 
-                               
-                                
+
+
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="small mb-1" for="inputLastName">Price (perUnit)</label>
                                         <input class="form-control py-4" name="unit_price" type="text"  />
                                     </div>
                                 </div>
-                                
+
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="small mb-1" for="inputLastName">Quantity</label>
@@ -158,7 +158,7 @@
 <script>
 $(document).ready(function(){
     $("#name").change(function() {
-        var c_name = $("#name").val(); 
+        var c_name = $("#name").val();
         console.log(c_name);
         $.ajax({
             type: 'POST',
@@ -168,7 +168,6 @@ $(document).ready(function(){
                 "id" : c_name
             },
             success: function(data) {
-                console.log(data);
                 $("#email").html('<label class="small mb-1" for="inputFirstName">Customer Email</label>');
                 var x = '<input class="form-control py-4" name="email" value="'+data.customer.email+'" type="text"/>';
                 $("#email").append(x);
