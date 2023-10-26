@@ -7,7 +7,7 @@
 
     git clone https://github.com/ekramasif/Inventory_Management_System.git
 
-    cd SD_Project/
+    cd Inventory_Management_System
     
 ### Composer
 
