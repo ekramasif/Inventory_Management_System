@@ -30,5 +30,6 @@
 ## Our valuable team👩‍💻👨‍💻 :
 
 <p align="center">
-  <img src="https://contributors-img.web.app/image?repo=ekramasif/Inventory_Management_System" />
+    <img src="https://contributors-img.web.app/image?repo=ekramasif/Inventory_Management_System" />
+    <img src="https://repobeats.axiom.co/api/embed/3b3a0a5e41ff35d0e93ef4ba7d1eb3afcfa1f64a.svg" />
 </p>
