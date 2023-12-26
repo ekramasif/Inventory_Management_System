@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\DB;
 class InvoiceController extends Controller
 {
     public function store(Request $request){
-    	
+
     	$data=new Invoice;
         $data->customer_name= $request->customer;
     	$data->customer_mail= $request->email;
