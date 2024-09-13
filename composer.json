@@ -8,9 +8,13 @@
         "php": "^7.3|^8.0",
         "fideloper/proxy": "^4.4",
         "fruitcake/laravel-cors": "^2.0",
-        "guzzlehttp/guzzle": "^7.0.1",
+        "guzzlehttp/guzzle": "^7.9",
         "laravel/framework": "^8.12",
-        "laravel/tinker": "^2.5"
+        "laravel/tinker": "^2.5",
+        "open-telemetry/api": "^1.0",
+        "open-telemetry/exporter-otlp": "^1.0",
+        "open-telemetry/sdk": "^1.0",
+        "open-telemetry/sem-conv": "^1.27"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -52,7 +56,10 @@
     "config": {
         "optimize-autoloader": true,
         "preferred-install": "dist",
-        "sort-packages": true
+        "sort-packages": true,
+        "allow-plugins": {
+            "php-http/discovery": true
+        }
     },
     "minimum-stability": "dev",
     "prefer-stable": true
