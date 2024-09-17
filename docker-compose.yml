@@ -1,0 +1,28 @@
+version: '3.8'
+
+services:
+  app:
+    image: inventory-app:v1
+    container_name: inventory-app
+    ports:
+      - "8080:80"
+    restart: always
+    environment:
+      - APP_KEY="base64:X7AlvyFOeCWP6QtumS3HHpGYITV4mT3XWHaW2ASTG2U="
+      - APP_ENV=local
+      - APP_DEBUG=true
+      - DB_PORT=3306
+      - DB_HOST=mysql
+      - DB_DATABASE
+      - DB_USERNAME
+      - DB_PASSWORD
+
+  mysql:
+    image: mysql:latest
+    container_name: mysql
+    restart: always
+    environment:
+      - MYSQL_ROOT_PASSWORD=${DB_ROOT_PASSWORD}
+      - MYSQL_DATABASE=${DB_DATABASE}
+      - MYSQL_USER=${DB_USERNAME}
+      - MYSQL_PASSWORD=${DB_PASSWORD}
