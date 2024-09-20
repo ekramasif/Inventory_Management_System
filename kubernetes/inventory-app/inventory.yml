@@ -30,7 +30,7 @@ spec:
     spec:
       containers:
         - name: inventory-app
-          image: harbor.internskomda.cloud/inventory-app/inventory-app:v1
+          image: harbor.internskomda.cloud/inventory-app/inventory-app:v52
           ports:
             - containerPort: 80
           envFrom:
