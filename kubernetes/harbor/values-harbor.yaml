@@ -1,0 +1,22 @@
+# Global variables
+externalURL: http://192.168.49.2:30002
+harborAdminPassword: test123
+
+expose:
+  type: nodePort
+  tls:
+    enabled: false
+    secretName: ""
+    notarySecretName: ""
+    commonName: "192.168.49.2"
+  nodePort:
+    name: harbor
+    ports:
+      http:
+        port: 80
+        nodePort: 30002
+      https:
+        port: 443
+        nodePort: 30003
+    annotations: {}
+    labels: {}
