@@ -1,0 +1,9 @@
+# Global variables
+externalURL: http://harbor.internskomda.cloud
+harborAdminPassword: "test123"
+
+expose:
+  ingress:
+    hosts:
+      core: harbor.internskomda.cloud
+    className: "nginx"

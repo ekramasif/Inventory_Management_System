@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: inventory-configmap
+  namespace: inventory-app
+data:
+  APP_KEY: base64:X7AlvyFOeCWP6QtumS3HHpGYITV4mT3XWHaW2ASTG2U=
+  APP_ENV: local
+  APP_DEBUG: "true"
+  DB_HOST: mysql.inventory-db.svc.cluster.local
+  DB_PORT: "3306"
+  DB_DATABASE: inventorydb
+  SESSION_DRIVER: redis
+  REDIS_HOST: redis.inventory-redis.svc.cluster.local
+  REDIS_PASSWORD: ""
+  REDIS_PORT: "6379"

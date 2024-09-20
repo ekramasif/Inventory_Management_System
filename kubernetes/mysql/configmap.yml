@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: mysql-configmap
+  namespace: inventory-db
+data:
+  init.sql: |
+    CREATE USER '$MYSQL_USER'@'%' IDENTIFIED BY '$MYSQL_PASSWORD';
+    GRANT ALL PRIVILEGES ON inventorydb.* TO '$MYSQL_USER'@'%';
+    FLUSH PRIVILEGES;
