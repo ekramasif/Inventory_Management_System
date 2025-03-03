@@ -15,7 +15,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="small mb-1" for="inputFirstName">Customer Name</label>
-                                        <select id="name" name="name" class="form-control">
+                                        <select id="name" name="customer" class="form-control">
                                             <option selected>Choose...</option>
                                             @foreach($customers as $c)
                                                 <option value="{{$c->id}}">{{ $c->name }}</option>
@@ -26,26 +26,26 @@
 
                                 <div class="col-md-6">
                                     <div class="form-group"  name="email" id="email">
-                                        <!-- <label class="small mb-1" for="inputFirstName">Customer Email</label>
-                                        <input class="form-control py-4" name="email" type="text"/> -->
+                                        <label class="small mb-1" for="inputFirstName">Customer Email</label>
+                                        <input class="form-control py-4" name="email" type="text"/>
                                     </div>
                                 </div> 
                                 <div class="col-md-6">
                                     <div class="form-group" name="company" id="company">
-                                        <!-- <label class="small mb-1" for="inputLastName">Company</label>
-                                        <input class="form-control py-4" name="company" type="text" /> -->
+                                        <label class="small mb-1" for="inputLastName">Company</label>
+                                        <input class="form-control py-4" name="company" type="text" /> 
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group" name="address" id="address">
-                                        <!-- <label class="small mb-1" for="inputState">Address</label>
-                                        <input class="form-control py-4" name="address" type="text" /> -->
+                                        <label class="small mb-1" for="inputState">Address</label>
+                                        <input class="form-control py-4" name="address" type="text" /> 
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-group" name="phone" id="phone">
-                                        <!-- <label class="small mb-1" for="inputState">Phone No.</label>
-                                        <input class="form-control py-4" name="phone" type="text" /> -->
+                                        <label class="small mb-1" for="inputState">Phone No.</label>
+                                        <input class="form-control py-4" name="phone" type="text" />
                                     </div>
                                 </div>
 
@@ -120,7 +120,7 @@
                                 <div class="col-md-6">
                                     <div class="form-group">
                                         <label class="small mb-1" for="inputLastName">Price (perUnit)</label>
-                                        <input class="form-control py-4" name="unit_price" type="text"  />
+                                        <input class="form-control py-4" name="sale_price" type="text"  />
                                     </div>
                                 </div>
                                 
