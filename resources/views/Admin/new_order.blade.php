@@ -24,7 +24,7 @@
                         </div>
                     </div> 
                     
-                        <div class="col-md-6">
+                    <div class="col-md-6">
                         <div class="form-group" id="email">
                             <!-- <label class="small mb-1" for="inputFirstName">Customer Email</label>
                             <input class="form-control py-4" name="email" type="text"/> -->
@@ -74,7 +74,30 @@
                             </select>
                         </div>
                     </div>
-                    
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="small mb-1" for="inputEmailx">Company</label>
+                            <input class="form-control py-4" name="company" type="text"  />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="small mb-1" for="inputEmailx">Address</label>
+                            <input class="form-control py-4" name="address" type="text"  />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="small mb-1" for="inputEmailx">Phone</label>
+                            <input class="form-control py-4" name="phone" type="text"  />
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label class="small mb-1" for="inputEmailx">Email</label>
+                            <input class="form-control py-4" name="email" type="text"  />
+                        </div>
+                    </div>
                     <div class="col-md-6">
                         <div class="form-group">
                             <label class="small mb-1" for="inputLastName">Quantity</label>
