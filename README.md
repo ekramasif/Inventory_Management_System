@@ -155,3 +155,15 @@ database/
 <p align="center">
   <img src="https://contributors-img.web.app/image?repo=ekramasif/Inventory_Management_System" />
 </p>
+
+
+
+## Star History
+
+<a href="https://www.star-history.com/?repos=ekramasif%2Finventory_management_system&type=date&legend=top-left">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/chart?repos=ekramasif/inventory_management_system&type=date&theme=dark&legend=top-left" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/chart?repos=ekramasif/inventory_management_system&type=date&legend=top-left" />
+   <img alt="Star History Chart" src="https://api.star-history.com/chart?repos=ekramasif/inventory_management_system&type=date&legend=top-left" />
+ </picture>
+</a>
