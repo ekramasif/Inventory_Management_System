@@ -37,6 +37,11 @@ Route::get('/purchase-products/{id}', [ProductController::class,'purchaseData'])
 
 Route::post('/insert-purchase-products',[ProductController::class,'storePurchase'])->middleware(['auth']);
 
+Route::get('/product-details/{id}',[ProductController::class,'productDetails'])->middleware(['auth'])->name('product.details');
+
+Route::put('/update-product/{id}',[ProductController::class,'updateProduct'])->middleware(['auth']);
+
+Route::delete('/product-delete/{id}',[ProductController::class,'deleteProduct'])->middleware(['auth'])->name('product.delete');
 
 //invoice
 Route::get('/add-invoice/{id}', [InvoiceController::class,'formData'])->middleware(['auth']);

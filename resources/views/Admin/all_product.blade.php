@@ -34,10 +34,14 @@
 
                         <td>{{ $row->unit_price }}</td>
                         <td>{{ $row->sales_unit_price }}</td>
-                        <td>
-                        	<a href="#" class="btn btn-sm btn-info">Edit</a>
-                            <a href="#" class="btn btn-sm btn-danger">Delete</a>
-                        	<a href="{{ 'purchase-products/'.$row->id }}" class="btn btn-sm btn-info">Purchase</a>
+                        <td class="d-flex">
+                        	<a href="{{ 'product-details/'.$row->id }}" class="btn btn-sm btn-info" style="height: 32px;  margin-right: 5px;" >Edit</a>
+                            <form action="{{ 'product-delete/'.$row->id }}" method="POST">
+                                @csrf
+                                @method('DELETE')
+                                <input type=submit value ="Delete" class="btn btn-sm btn-danger">
+                            </form>
+                        	<a href="{{ '/purchase-products/'.$row->id }}" class="btn btn-sm btn-info"  style="height: 32px; margin-left: 5px;">Purchase</a>
                         </td>
                     </tr>
                     @endforeach

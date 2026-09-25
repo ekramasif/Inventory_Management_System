@@ -59,5 +59,30 @@ class ProductController extends Controller
         return Redirect()->route('all.product');
     }
     
+    public function productDetails($id) {
+        $product =  Product::find($id);
+        return view('Admin.edit_product',compact('product'));
+    }
+
+    public function updateProduct(Request $request, $id)
+    {
+        $product = Product::findOrFail($id);
+        $product->update([
+            'product_code' => $request->input('code'),
+            'name' => $request->input('name'),
+            'category' => $request->input('category'),
+            'stock' => $request->input('stock'),
+            'unit_price' => $request->input('unit_price'),
+            'sales_unit_price' => $request->input('sale_price'),
+        ]);
+    
+        return redirect()->route('all.product')->with('success', 'Product updated successfully!');
+    }
+
+    public function deleteProduct($id){
+        $product = Product::findOrFail($id);
+        $product->delete();
+        return redirect()->route('all.product')->with('success', 'Product deleted successfully!');
+    }
 
 }
